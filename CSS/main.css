@@ -37,3 +37,106 @@ blockquote.firstPart__quote_standart {
   border-style: dashed;
   border-color: rgb(49, 48, 2);
 }
+div.imageWrapper {
+  width: 300px;
+  padding-top:  5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.secondPart .imageWrapper {
+  margin: 0 auto;
+  width: 85vw;
+}
+
+
+.thirdPart h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+h1 {
+  font-family: "Caveat";
+  font-weight: 600;
+  font-size: 2.8em;
+}
+div.imageWrapper img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h2 {
+  font-family: 'Lobster';
+}
+
+
+h3 {
+  font-family: 'Lobster', cursive;
+}
+
+p {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+li {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Caveat/woff2/Caveat-Regular.woff2") format("woff2"), url("../fonts/Caveat/ttf/Caveat-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Caveat/woff2/Caveat-Medium.woff2") format("woff2"), url("../fonts/Caveat/ttf/Caveat-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Caveat/woff2/Caveat-SemiBold.woff2") format("woff2"), url("../fonts/Caveat/ttf/Caveat-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Caveat/woff2/Caveat-Bold.woff2") format("woff2"), url("../fonts/Caveat/ttf/Caveat-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Scada';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Scada/woff2/Scada-Regular.woff2") format("woff2"), url("../fonts/Scada/woff2/Scada-Regular.woff2") format("ttf");
+}
+
+@font-face {
+  font-family: 'Scada';
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/Scada/woff2/Scada-Italic.woff2") format("woff2"), url("../fonts/Scada/woff2/Scada-Italic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Scada';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Scada/woff2/Scada-Bold.woff2") format("woff2"), url("../fonts/Scada/woff2/Scada-BoldItalic.woff2") format("ttf");
+}
+
+@font-face {
+  font-family: 'Scada';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/Scada/woff2/Scada-BoldItalic.woff2") format("woff2"), url("../fonts/Scada/woff2/Scada-BoldItalic.ttf") format("ttf");
+}
